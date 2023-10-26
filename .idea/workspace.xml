@@ -4,14 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625e33ec-eb5c-46ac-85b5-9de01f68c2f8" name="Changes" comment="" />
+    <list default="true" id="625e33ec-eb5c-46ac-85b5-9de01f68c2f8" name="Changes" comment="RPC">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Annotation/RpcReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcConsumerPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcReferenceBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/MiniRpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/MiniRpcResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/RpcConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/RpcServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/ServiceMeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/test/java/com/chen/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-facade/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-facade/src/test/java/com/chen/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/MiniRpcProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/MsgHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/MsgType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/ProtocolConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/codec/MiniRpcDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/codec/MiniRpcEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/HessianSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/JsonSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/RpcSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/SerializationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/SerializationTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/test/java/com/chen/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/Annotation/RpcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/RpcProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/Start/RpcProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/properties/RpcProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/properties/RpcProviderAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/src/test/java/com/chen/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-registry/src/main/java/com/chen/RegistryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-registry/src/test/java/com/chen/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-test/src/main/java/com/chen/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-test/src/test/java/com/chen/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-facade/src/main/java/com/chen/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chen/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/src/test/java/com/chen/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XEr7IFbFBzdQTZZgLcSbQKwTUH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,9 +85,38 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "spring.configuration.checksum": "e79024669241ea2befa186fc2cf2f5f0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chen.common" />
+      <recent name="com.chen.Start" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.chen" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chen.codec" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="cx-RPC" />
+      <option name="SPRING_BOOT_MAIN_CLASS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,8 +125,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698204912810</updated>
+      <workItem from="1698204914859" duration="37209000" />
+      <workItem from="1698316489652" duration="1568000" />
     </task>
+    <task id="LOCAL-00001" summary="RPC">
+      <created>1698205000111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698205000111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -47,5 +151,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RPC" />
+    <option name="LAST_COMMIT_MESSAGE" value="RPC" />
   </component>
 </project>
