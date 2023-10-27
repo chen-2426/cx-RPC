@@ -1,4 +1,4 @@
-package com.chen.properties;
+package com.chen.Protocol;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

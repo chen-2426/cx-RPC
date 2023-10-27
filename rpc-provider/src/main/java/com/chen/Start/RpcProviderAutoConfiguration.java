@@ -1,7 +1,9 @@
-package com.chen.properties;
+package com.chen.Start;
 
+import com.chen.Protocol.RpcProperties;
+import com.chen.RegistryFactory;
 import com.chen.RegistryService;
-import com.chen.Start.RpcProvider;
+import com.chen.RegistryType;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

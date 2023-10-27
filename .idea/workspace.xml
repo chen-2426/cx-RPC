@@ -5,54 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="625e33ec-eb5c-46ac-85b5-9de01f68c2f8" name="Changes" comment="RPC">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Annotation/RpcReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcConsumerPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcReferenceBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/MiniRpcRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/MiniRpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/RpcConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/RpcServiceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/ServiceMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-core/src/test/java/com/chen/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-facade/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-facade/src/test/java/com/chen/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/MiniRpcProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/MsgHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/MsgType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/ProtocolConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/codec/MiniRpcDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/codec/MiniRpcEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/HessianSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/JsonSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/RpcSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/SerializationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/serialization/SerializationTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/test/java/com/chen/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/Annotation/RpcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/RpcProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/Start/RpcProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/properties/RpcProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/properties/RpcProviderAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-provider/src/test/java/com/chen/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-registry/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-registry/src/main/java/com/chen/RegistryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-registry/src/test/java/com/chen/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-test/src/main/java/com/chen/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc-test/src/test/java/com/chen/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.assets/image-20231026191630055.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.assets/image-20231026215822836.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.assets/image-20231026220228289.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcInvokerProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/MiniRpcFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/MiniRpcRequestHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-facade/src/main/java/com/chen/Facade/HelloFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/MsgStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/facade/HelloFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-registry/src/main/java/com/chen/RegistryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-registry/src/main/java/com/chen/RegistryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-registry/src/main/java/com/chen/ZookeeperRegistryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-registry/src/main/java/com/chen/loadBalancer/ServiceLoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-registry/src/main/java/com/chen/loadBalancer/ZKConsistentHashLoadBalancer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-facade/src/main/java/com/chen/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chen/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/src/test/java/com/chen/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcConsumerPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcConsumerPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcReferenceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/com/chen/Bean/RpcReferenceBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/RpcServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/RpcServiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/ServiceMeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/chen/common/ServiceMeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-facade/src/main/java/com/chen/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/codec/MiniRpcDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/codec/MiniRpcDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/RpcProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/Start/RpcProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/Start/RpcProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/Start/RpcProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/properties/RpcProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/chen/Protocol/RpcProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/properties/RpcProviderAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/com/chen/Start/RpcProviderAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-registry/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -88,6 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_directory_selection": "D:/JetBrains/project/cx-RPC/rpc-facade/src/main/java/com/chen",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -126,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698204912810</updated>
       <workItem from="1698204914859" duration="37209000" />
-      <workItem from="1698316489652" duration="1568000" />
+      <workItem from="1698316489652" duration="22018000" />
     </task>
     <task id="LOCAL-00001" summary="RPC">
       <created>1698205000111</created>
@@ -135,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698205000111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RPC">
+      <created>1698318559528</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698318559528</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

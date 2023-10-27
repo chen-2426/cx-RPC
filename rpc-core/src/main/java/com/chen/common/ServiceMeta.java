@@ -1,6 +1,11 @@
 package com.chen.common;
 
+import io.netty.util.concurrent.Promise;
 import lombok.Data;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * @author chenxi
@@ -18,4 +23,5 @@ public class ServiceMeta {
 
     private int servicePort;
 }
+
 

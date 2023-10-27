@@ -1,6 +1,11 @@
 package com.chen.Bean;
 
+import com.chen.RegistryFactory;
+import com.chen.RegistryService;
+import com.chen.RegistryType;
 import org.springframework.beans.factory.FactoryBean;
+import org.springframework.cglib.proxy.InvocationHandler;
+import org.springframework.cglib.proxy.Proxy;
 
 /**
  * @author chenxi
@@ -10,8 +15,6 @@ import org.springframework.beans.factory.FactoryBean;
  */
 
 public class RpcReferenceBean implements FactoryBean<Object> {
-
-
 
     //可修改的参数信息
     private String serviceVersion;
@@ -35,6 +38,15 @@ public class RpcReferenceBean implements FactoryBean<Object> {
 
     public void init() throws Exception{
         //TODO 生成动态代理类，并赋值给Object;
+        RegistryService registryService = RegistryFactory.getInstance(this.registryAddr, RegistryType.valueOf(this.registryType));
+        this.object = Proxy.newProxyInstance(
+                interfaceClass.getClassLoader(),
+                new Class<?>[]{interfaceClass},
+                new RpcInvokerProxy(serviceVersion,timeout,registryService));
+
+    }
+    public void setInterfaceClass(Class<?> interfaceClass) {
+        this.interfaceClass = interfaceClass;
     }
 
     public void setServiceVersion(String serviceVersion) {

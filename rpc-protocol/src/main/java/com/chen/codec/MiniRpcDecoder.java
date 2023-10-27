@@ -85,7 +85,7 @@ public class MiniRpcDecoder extends ByteToMessageDecoder {
                 }
 
             case HEARTBEAT: //验证存活
-
+                //TODO 提供心跳检测返回值
 
         }
     }

@@ -64,6 +64,7 @@ public class RpcConsumerPostProcessor implements ApplicationContextAware, BeanCl
                     );
                 }
                 registry.registerBeanDefinition(beanName,rpcRefBeanDefinitions.get(beanName));
+            log.info("registered RpcReferenceBean {} success.", beanName);
         });
     }
 
@@ -74,7 +75,7 @@ public class RpcConsumerPostProcessor implements ApplicationContextAware, BeanCl
     private void parseRpcReference(Field field) {
         RpcReference annotation = AnnotationUtils.getAnnotation(field, RpcReference.class);
         if(annotation != null){
-            BeanDefinitionBuilder builder = BeanDefinitionBuilder.genericBeanDefinition(RpcReference.class);
+            BeanDefinitionBuilder builder = BeanDefinitionBuilder.genericBeanDefinition(RpcReferenceBean.class);
             builder.setInitMethodName(RpcConstants.INIT_METHOD_NAME);
             builder.addPropertyValue("interfaceClass",field.getType());
             builder.addPropertyValue("serviceVersion",annotation.serviceVersion());
